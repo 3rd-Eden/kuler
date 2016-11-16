@@ -28,6 +28,6 @@
   },
   "homepage": "https://github.com/3rd-Eden/kuler",
   "dependencies": {
-    "colornames": "0.0.2"
+    "colornames": "1.1.1"
   }
 }
