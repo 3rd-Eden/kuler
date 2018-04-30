@@ -4,7 +4,7 @@
   "description": "Color your terminal using CSS/hex color codes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,10 @@
   },
   "homepage": "https://github.com/3rd-Eden/kuler",
   "dependencies": {
-    "colornames": "0.0.2"
+    "colornames": "^1.1.1"
+  },
+  "devDependencies": {
+    "assume": "^2.0.1",
+    "mocha": "^5.1.1"
   }
 }
