@@ -36,7 +36,7 @@ var str = kuler('foo', 'red');
 ```
 
 The color code sequence is automatically terminated at the end of the string so
-the colors do no bleed to other pieces of text. So doing: 
+the colors do no bleed to other pieces of text. So doing:
 
 ```js
 console.log(kuler('red', 'red'), 'normal');
@@ -46,4 +46,4 @@ Will work without any issues.
 
 ## License
 
-MIT
+[MIT](LICENSE)
